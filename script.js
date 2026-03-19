@@ -3,7 +3,7 @@ const countdownElement = document.getElementById("countdown");
 const revealElements = document.querySelectorAll(".reveal");
 
 function updateCountdown() {
-  const weddingDate = new Date("2026-12-12T18:30:00+05:30");
+  const weddingDate = new Date("2026-12-20T18:30:00+05:30");
   const now = new Date();
   const diff = weddingDate - now;
 
